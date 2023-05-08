@@ -33,3 +33,6 @@
 
 ## Env variables
 - update `nuxt.config.ts` with `runtimeConfig`
+
+## Netlify deploy
+- add `PNPM_FLAGS=--shamefully-hoist` in env variables if use pnpm
