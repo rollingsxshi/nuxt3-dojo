@@ -11,8 +11,6 @@
 </template>
 
 <script setup>
-import ProductDetails from '~/components/ProductDetails.vue';
-
 definePageMeta({
   layout: "products",
 });
