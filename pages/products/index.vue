@@ -9,10 +9,16 @@
 </template>
 
 <script setup>
-import ProductCard from '~/components/ProductCard.vue';
-
   definePageMeta({
     layout: 'products',
+  })
+
+  // override default meta values
+  useHead({
+    title: 'Nuxt Dojo | Merch',
+    meta: [
+      {name: 'description', content: 'Nuxt 3 Merch'}
+    ]
   })
 
   // fetch products
